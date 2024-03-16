@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("./images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    padding-top: 200px; /* Adjust according to your needs */
+}
+
+#netflix {
+    position: absolute;
+    color: #ff2026;
+    top: 20px; /* Adjust according to your needs */
+    left: 20px; /* Adjust according to your needs */
+}
+
+
+
+form {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff2026;
+}
+
+p {
+    margin-top: 20px; /* Adjust according to your needs */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
